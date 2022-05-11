@@ -47,7 +47,7 @@ const Maps = ( {data, lng, lat, selectBrewery} ) => {
         setCurLat(parseFloat(blat));
         if(switchPages){
           setSwitchPages(false);
-          navigate(`/brewery/${id}`)
+          navigate(`/brewery_locator/brewery/${id}`)
         }
     }
 
