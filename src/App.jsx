@@ -14,7 +14,7 @@ function App() {
         <Route index element={<Main/>}/>
         <Route path={`${brewPath}/brewery/:id`} element={<Info />}/>
         <Route path={`${brewPath}/about/`} element={<About />}/>
-        <Route path='*' element={<NotFound />}/>
+        <Route path='/brewery_locator/*' element={<NotFound />}/>
       </Route>
     </Routes>
   );

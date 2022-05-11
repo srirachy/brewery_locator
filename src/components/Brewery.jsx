@@ -27,7 +27,7 @@ const Brewery = ({brewery: {id, name, street, city, state, phone, brewery_type},
   const navigate = useNavigate();
   return (
     <CardWrapper isSelected={isSelected}>
-      <div key={nanoid()} className="card" onClick={()=> navigate(`/brewery/${id}`)}>
+      <div key={nanoid()} className="card" onClick={()=> navigate(`/brewery_locator/brewery/${id}`)}>
         <p>{name}</p>
         <p>{street} {city}, {state}</p>
         <p>{phoneStyle(phone)}</p>

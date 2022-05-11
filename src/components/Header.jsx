@@ -47,13 +47,13 @@ const NavWrapper = styled.nav`
 const Header = () => {
     return (
         <HeaderWrapper>
-            <Link to='/'>
+            <Link to='/brewery_locator/'>
                 <h1>Brew Maps</h1>
             </Link>
             <NavWrapper>
                 <ul>
                     <li>
-                        <NavLink to='/about'>About</NavLink>
+                        <NavLink to='/brewery_locator/about/'>About</NavLink>
                     </li>
                 </ul>
             </NavWrapper>
