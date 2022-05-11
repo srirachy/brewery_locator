@@ -12,17 +12,16 @@ This project has the following requirements:
 - App should have multiple components. Use props to pass data from parent components into child components to allow customization of the child components
 - Make code DRY (Don't Repeat Yourself) as possible 
 
-This project utilizes SASS, JS, and React to run.
+This project utilizes JS and React to run.
 
 ## Prerequisites
 - Understanding of React
-- Understanding of SASS
 - Strong understanding of JavaScript
 - Strong understanding of HTML5
 
 ## Installation
 - [Git](https://git-scm.com/) must be installed
-- Clone repository `git clone git@github.com:javiguerra777/restaurant-locator.git`
+- Clone repository `git@github.com:srirachy/brewery_locator.git`
 - Text editor or [VS Code](https://code.visualstudio.com/)
 
 ## License
@@ -32,5 +31,5 @@ This project utilizes SASS, JS, and React to run.
 - Please add a code comment referencing back to this repository when you use this code.
 
 ## Contact
-- Javi Guerra jaguerra@alphaworks.tech 
 - Casey Reyes creyes@alphaworks.tech
+- Javi Guerra jaguerra@alphaworks.tech 
