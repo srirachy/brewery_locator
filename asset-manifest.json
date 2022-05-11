@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/brewery_locator/static/js/main.1a0902f0.js",
+    "main.js": "/brewery_locator/static/js/main.ada21e68.js",
     "static/media/info.png": "/brewery_locator/static/media/info.6b69e61fd345317f7b56.png",
     "static/media/brew_bkgd.png": "/brewery_locator/static/media/brew_bkgd.1f95d974a0219810ffe0.png",
     "static/media/four_oh_four_bkgd.png": "/brewery_locator/static/media/four_oh_four_bkgd.5bff9c904abbf67f8bbd.png",
     "static/media/about_bkgd.png": "/brewery_locator/static/media/about_bkgd.906f516caf2900800132.png",
     "static/media/beer.png": "/brewery_locator/static/media/beer.6b6f4b3813b7106c201a.png",
     "index.html": "/brewery_locator/index.html",
-    "main.1a0902f0.js.map": "/brewery_locator/static/js/main.1a0902f0.js.map"
+    "main.ada21e68.js.map": "/brewery_locator/static/js/main.ada21e68.js.map"
   },
   "entrypoints": [
-    "static/js/main.1a0902f0.js"
+    "static/js/main.ada21e68.js"
   ]
 }
