@@ -7,12 +7,13 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
+  const brewPath = '/brewery_locator'
   return (
     <Routes>
-      <Route path='/brewery_locator' element={<Layout/>} >
+      <Route path={`${brewPath}/`} element={<Layout/>} >
         <Route index element={<Main/>}/>
-        <Route path='brewery/:id' element={<Info />}/>
-        <Route path='about/' element={<About />}/>
+        <Route path={`${brewPath}/brewery/:id`} element={<Info />}/>
+        <Route path={`${brewPath}/about/`} element={<About />}/>
         <Route path='*' element={<NotFound />}/>
       </Route>
     </Routes>
