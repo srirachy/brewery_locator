@@ -24,6 +24,9 @@ This project utilizes JS and React to run.
 - Clone repository `git@github.com:srirachy/brewery_locator.git`
 - Text editor or [VS Code](https://code.visualstudio.com/)
 
+## Deployment
+- Deployed using [Github Pages](https://srirachy.github.io/brewery_locator/)
+
 ## License
 - Open Source Code.
 

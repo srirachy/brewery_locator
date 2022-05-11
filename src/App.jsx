@@ -10,11 +10,11 @@ function App() {
   const brewPath = '/brewery_locator'
   return (
     <Routes>
-      <Route path={`${brewPath}/`} element={<Layout/>} >
-        <Route index element={<Main/>}/>
+      <Route path={`${brewPath}/`} element={<Layout />} >
+        <Route index element={<Main />}/>
         <Route path={`${brewPath}/brewery/:id`} element={<Info />}/>
         <Route path={`${brewPath}/about/`} element={<About />}/>
-        <Route path='/brewery_locator/*' element={<NotFound />}/>
+        <Route path={`${brewPath}/*`} element={<NotFound />}/>
       </Route>
     </Routes>
   );
