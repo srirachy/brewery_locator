@@ -107,7 +107,6 @@ const Info = () => {
   }, [likedBrews, name]);
 
   const addLike = (curName) => {
-    console.log("+1");
     const bData = dbData.find(({ name }) => name === curName);
     if (typeof bData === "undefined") {
       addBrewDb(curName);
@@ -119,7 +118,6 @@ const Info = () => {
 
   const decLike = async (curName) => {
     // code for removing from db
-    console.log("-1");
     const bData = dbData.find(({ name }) => name === curName);
     if (typeof bData !== "undefined"){
       if (bData.numLikes > 0){
